@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1>Bookmark Website</h1>
+        <form onsubmit="handleOnSubmit(event)">
+            <label for="title">Website Title:</label>
+            <input type="text" id="title" required><br><br>
+            <label for="url">Website URL:</label>
+            <input type="url" id="url" required><br><br>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    <div id="show">
+        <p>All Bookmarks</p>
+        <ul></ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

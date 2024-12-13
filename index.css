@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+ div p{
+    font-weight: bold;
+    margin-top: 45px;
+ }
+
+ ul{
+    list-style-type: none;
+    padding: 0px;
+ }
+
+.delete{
+    margin: 5px;
+}
+.edit{
+    margin: 0px;
+}
